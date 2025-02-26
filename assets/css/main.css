@@ -1627,3 +1627,28 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.img-thumbnail {
+  border: 2px solid #0078ff;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Modal Image - Bigger View */
+#modalImage {
+  max-width: 95%;
+  max-height: 90vh;
+  border-radius: 12px;
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.8);
+  /* Dark overlay */
+}
+
